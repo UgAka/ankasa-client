@@ -51,20 +51,20 @@ export default function Register() {
                 <input
                   type="text"
                   className="input"
-                  placeholder="  Full Name"
+                  placeholder=" Enter full name"
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                 />
                 <input
                   type="email"
                   className="input"
-                  placeholder="  Email"
+                  placeholder=" Enter email address"
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                 />
                 <div className="form-password">
                   <input
                     type={`${showPassword ? "text" : "password"}`}
                     className="input"
-                    placeholder="  Password"
+                    placeholder=" Enter your password"
                     onChange={(e) =>
                       setForm({ ...form, password: e.target.value })
                     }
