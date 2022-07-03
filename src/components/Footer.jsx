@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="form">
           <div className="form-title">
-            <div className="text">Download Angkasa app</div>
+            <div className="text">Download Ankasa app</div>
           </div>
           <div className="images">
             <img src={appStore} alt="App Store" />

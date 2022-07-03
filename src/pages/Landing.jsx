@@ -209,7 +209,7 @@ export default function Landing() {
               destination.data.map((item, index) => (
               <div key={index} >
               <Slide left>           
-                    <Card alt={item.place} destination={item.place} country={item.country} src={`${process.env.REACT_APP_API_URL}/${item.image}`} totalAirlines={item.total_airline} price={
+                    <Card alt={item.place} destination={item.place} country={item.country} src={`${item.image}`} totalAirlines={item.total_airline} price={
                       new Intl.NumberFormat("id-ID", {
                         style: "currency",
                         currency: "IDR",
@@ -236,7 +236,7 @@ export default function Landing() {
                   oldDestination.data.map((item, index) => (
                   <div key={index} className='margin' >
                   <Slide right>       
-                    <CircleCard src={`${process.env.REACT_APP_API_URL}/${item.image}`} title={item.place.toUpperCase()} />
+                    <CircleCard src={`${item.image}`} title={item.place.toUpperCase()} />
                   </Slide>
                   </div>
                 ))
