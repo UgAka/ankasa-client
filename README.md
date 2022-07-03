@@ -152,7 +152,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 ## Back End
-Repository: https://github.com/Infinite-Bug/ankasa-api
+Repository: https://github.com/andry-pebrianto/ankasa-api
 
 ## Our Team
 
