@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Ankasa Flight is an online ticket booking application. This application is intended for people who want to travel both nationally and internationally, using airplanes.
+Ankasa Flight is a online ticket booking application with features to register, login, edit profile, booking tickets, cancel bookings, and pay for tickets. This project is a team project and acts as Project Manager. This web application is built using ReactJS, ExpressJS, and PostgreSQL.
 
 ### Built With
 
@@ -152,7 +152,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 ## Back End
-Repository: https://github.com/Infinite-Bug/ankasa-api
+Repository: https://github.com/andry-pebrianto/ankasa-api
 
 ## Our Team
 
