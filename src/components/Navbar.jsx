@@ -78,7 +78,7 @@ function App() {
           <div className="form-user">
             {!token ? (
               <Link to="/login" className="navbar-brand">
-                login
+                Login
               </Link>
             ) : detailUser.isLoading === true ? (
               <h5>Loading</h5>
